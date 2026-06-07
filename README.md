@@ -14,7 +14,7 @@
 
 ### Part 1: Preprocessing
 
-* All images of dataset are preprocessed following the [SphereFace](https://github.com/wy1iu/sphereface) and you can download the aligned images at [Align-CASIA-WebFace@BaiduDrive](https://pan.baidu.com/s/1k3Cel2wSHQxHO9NkNi3rkg) and [Align-LFW@BaiduDrive](https://pan.baidu.com/s/1r6BQxzlFza8FM8Z8C_OCBg).
+* All images of dataset are preprocessed following the and you can download the aligned images at [Align-CASIA-WebFace@BaiduDrive] and [Align-LFW@BaiduDrive]g).
 
 ### Part 2: Train
 
@@ -31,7 +31,7 @@
 
   1. Test the model on LFW.
     
-      **Note:** I have tested `lfw_eval.py` on the caffe model at [SphereFace](https://github.com/wy1iu/sphereface), it gets the same result.
+      **Note:** I have tested `lfw_eval.py` on the caffe model at [SphereFace] it gets the same result.
     
       ```
       python3 lfw_eval.py --resume --feature_save_dir
@@ -48,8 +48,3 @@
   | ACC | 99.00 | 99.00 | 99.00 | 98.67 | 99.33 | 99.67 | 99.17 | 99.50 | 100.00 | 99.67| **99.30** | 99.18 |
 
 
-## Reference resources
-
-  * [arcface-pytorch](https://github.com/ronghuaiyang/arcface-pytorch)
-  * [SphereFace](https://github.com/wy1iu/sphereface)
-  * [Insightface](https://github.com/deepinsight/insightface)
