@@ -38,13 +38,3 @@
       ```
       * `--resume:` path of saved model
       * `--feature_save_dir:` path to save the extracted features (must be .mat file)
-
-## Results
-
-  * You can just run the `lfw_eval.py` to get the result, the accuracy on LFW like this:
-
-  | Fold | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | AVE(ours) | Paper(112x96) |
-  | ------ |------|------|------|------|------|------|------|------|------|------| ------ | ------ |
-  | ACC | 99.00 | 99.00 | 99.00 | 98.67 | 99.33 | 99.67 | 99.17 | 99.50 | 100.00 | 99.67| **99.30** | 99.18 |
-
-
