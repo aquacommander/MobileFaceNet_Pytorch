@@ -33,8 +33,6 @@
     
       **Note:** I have tested `lfw_eval.py` on the caffe model at [SphereFace] it gets the same result.
     
-      ```
-      python3 lfw_eval.py --resume --feature_save_dir
-      ```
+
       * `--resume:` path of saved model
       * `--feature_save_dir:` path to save the extracted features (must be .mat file)
